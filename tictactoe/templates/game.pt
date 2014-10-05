@@ -1,26 +1,27 @@
+<!DOCTYPE html>
 <html>
 		<head><link rel="stylesheet" type="text/css" href="${css}">
 		</head> 
 <title>${project}</title>
 <h1>${project}</h1>
 <body>
-		<script src="${js}"></script>
-		<table>
-				<tr>
+		<table id='board'>
+				<tr id='row1'>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 				</tr>
-				<tr>
+				<tr id='row2'>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 				</tr>
-				<tr>
+				<tr id='row3'>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 						<td onclick="play(this)"> </td>
 				</tr>
 		</table>
+		<script src="${js}"></script>
 </body>
 </html>
