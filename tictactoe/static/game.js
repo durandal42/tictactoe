@@ -6,7 +6,10 @@ function allThreeMatch(stringArray) {
 }
 function win(y, x){
 		alert(board[y][x] + ' wins!');
-		for (i = 0; i < cells.length; i++) {cells[i].innerHTML = ' ';}
+		for (i = 0; i < cells.length; i++) {
+				cells[i].innerHTML = ' ';
+				counter = 0;
+		}
 }
 function checkwin() {
 		cells = document.getElementsByTagName('td');
