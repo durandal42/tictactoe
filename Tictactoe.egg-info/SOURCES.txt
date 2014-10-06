@@ -14,8 +14,11 @@ Tictactoe.egg-info/top_level.txt
 tictactoe/__init__.py
 tictactoe/tests.py
 tictactoe/views.py
+tictactoe/static/game.css
+tictactoe/static/game.js
 tictactoe/static/pyramid-16x16.png
 tictactoe/static/pyramid.png
 tictactoe/static/theme.css
 tictactoe/static/theme.min.css
+tictactoe/templates/game.pt
 tictactoe/templates/mytemplate.pt
